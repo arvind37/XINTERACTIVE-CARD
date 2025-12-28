@@ -284,7 +284,7 @@
     font-weight: bold;
 }
 
-.main .main-body .form-body .form-group .cvc-input{
+.main .main-body .form-body .form-group .cvc-input1{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -292,7 +292,7 @@
     width: 60%;
 }
 
-.main .main-body .form-body .form-group .cvc-input label{
+.main .main-body .form-body .form-group .cvc-input1 label{
     white-space: nowrap;
     text-transform: uppercase;
     font-size: 0.7rem;
@@ -301,7 +301,7 @@
     letter-spacing: 0.1rem;
 }
 
-.main .main-body .form-body .form-group .cvc-input input{
+.main .main-body .form-body .form-group .cvc-input1 input{
     height: 2.7rem;
     border: none;
     outline: none;
@@ -313,20 +313,20 @@
     padding: 1rem;
 }
 
-.main .main-body .form-body .form-group .cvc-input input::placeholder{
+.main .main-body .form-body .form-group .cvc-input1 input::placeholder{
     text-transform: none;
     color: var(--Light-grayish-violet);
 }
 
-.main .main-body .form-body .form-group .cvc-input input:focus{
+.main .main-body .form-body .form-group .cvc-input1 input:focus{
     border-color: hsl(278, 94%, 30%);
 }
 
-.main .main-body .form-body .form-group .cvc-input input:invalid{
+.main .main-body .form-body .form-group .cvc-input1 input:invalid{
     border-color: var(--Red-input-errors);
 }
 
-.main .main-body .form-body .form-group .cvc-input.validate-empty input{
+.main .main-body .form-body .form-group .cvc-input1.validate-empty input{
     border-color: var(--Red-input-errors);
 }
 
@@ -549,7 +549,7 @@
     .main .main-body .form-body{
         padding: 0 5%;
     }
-    .main .main-body .form-body .form-group .cvc-input{
+    .main .main-body .form-body .form-group .cvc-input1{
         width: 55%;
     }
 }
