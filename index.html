@@ -68,8 +68,8 @@
           <div class="input-group">
             <label for="exp">Exp. Date (MM/YY)</label>
             <div class="sub-input" id="expire">
-              <input type="text" pattern="\d{1,2}" class="MM date-input" maxlength="2" placeholder="MM">
-              <input type="text" pattern="\d{1,2}" class="YY date-input" maxlength="2" placeholder="YY">
+              <input type="text" pattern="\d{1,2}" class="MM date-input month-input" maxlength="2" placeholder="MM">
+              <input type="text" pattern="\d{1,2}" class="YY date-input year-input" maxlength="2" placeholder="YY">
             </div>
             <span class="error empty dn">Can't be blank</span>
             <span class="validate-date error invalid dn">Wrong format, numbers only</span>
@@ -81,7 +81,7 @@
             <span class="validate-cvc error invalid dn">Wrong format, numbers only</span>
           </div>
         </div>
-        <input type="submit" value="Confirm" class="submitBtn btn">
+        <button type="submit" value="Confirm" class="submitBtn btn">Submit</button>
 
         <div class="attribution">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
